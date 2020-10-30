@@ -2,5 +2,5 @@ name: xxninjabunnyxx-gatsby-push-to-github-pages-action
 description: action to push your Gatsby site to GitHub Pages
 auther: xxninjabunnyxx
 branding:
-  image: 'corner-up-right'
+  image: arrow-right
   color: 'purple'
