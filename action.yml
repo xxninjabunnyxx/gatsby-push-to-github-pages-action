@@ -4,3 +4,26 @@ auther: xxninjabunnyxx
 branding:
   icon: 'corner-up-right'
   color: 'purple'
+
+inputs:
+  publishBranch:
+    description: 'GitHub Pages branch'
+    required: true
+  token:
+    description: 'GitHub Pages Token'
+    required: true
+  name:
+    description: 'Your name.'
+    required: true
+  email:
+    description: 'Your email.'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.publishBranch }}
+    - ${{ inputs.token }}
+    - ${{ inputs.name }}
+    - ${{ inputs.email }}
