@@ -1,4 +1,5 @@
 #!/bin/bash
+npm i 
 
 gatsby build
 
