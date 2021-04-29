@@ -1,4 +1,4 @@
-name: xxninjabunnyxx-gatsby-push-to-github-pages-action
+name: gatsby-push-to-github-pages-action
 description: An action to push your Gatsby site to GitHub Pages
 auther: xxninjabunnyxx
 branding:
